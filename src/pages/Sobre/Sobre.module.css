@@ -1,0 +1,64 @@
+.container {
+  max-width: 1000px; /* Aumentei um pouco para caber melhor lado a lado */
+  margin: 40px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.descricao {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 3rem;
+}
+
+.conteudoVertical {
+  display: flex;
+  flex-direction: column;
+  gap: 40px; 
+}
+
+.item {
+  display: flex;
+  align-items: center; 
+  background: #f9f9f9;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+
+.invertido {
+  flex-direction: row-reverse;
+}
+
+.imagemBox {
+  flex: 1; 
+  height: 250px;
+}
+
+.imagemBox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.textoBox {
+  flex: 1; 
+  padding: 30px;
+  text-align: left; 
+}
+
+.textoBox h3 {
+  color: #466399; 
+  margin-top: 0;
+}
+
+
+@media (max-width: 768px) {
+  .item, .invertido {
+    flex-direction: column; 
+  }
+  .imagemBox {
+    width: 100%;
+  }
+}

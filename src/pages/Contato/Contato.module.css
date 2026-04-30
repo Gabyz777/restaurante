@@ -1,0 +1,88 @@
+.contatoContainer {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05); 
+
+}
+
+.titulo {
+  color: #466399; 
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px; 
+  align-items: center;
+  width: 100%;
+
+}
+
+.inputGroup {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin-top: 25px;
+}
+
+.icone {
+  position: absolute;
+  left: 0;
+  top: -22px; 
+  color: #466399;
+  font-size: 1.2rem;
+}
+
+.inputField, .textField {
+  width: 100%;
+  padding: 12px 0px; 
+  border: none;
+  border-bottom: 2px solid #94a8cc; 
+  background: transparent;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+  outline: none;
+}
+
+
+.inputField, .textField {
+    border: 1px solid #94a8cc;
+    border-radius: 4px;
+    padding: 12px 12px;
+}
+
+.inputField:focus, .textField:focus {
+  border-color: #466399;
+}
+
+.textField {
+  height: 120px;
+  resize: none;
+}
+
+.botaoEnviar {
+  padding: 14px;
+  background-color: #466399;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.botaoEnviar:hover {
+  background-color: #354a72;
+  transform: translateY(-2px); 
+}
+
+.inputGroup{
+ margin-top: 20px;
+}
