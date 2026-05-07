@@ -4,12 +4,12 @@
   padding: 30px;
   background-color: #ffffff;
   border-radius: 12px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05); 
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
 
 }
 
 .titulo {
-  color: #466399; 
+  color: #466399;
   margin-bottom: 30px;
   text-align: center;
   font-family: 'Segoe UI', sans-serif;
@@ -18,7 +18,7 @@
 .form {
   display: flex;
   flex-direction: column;
-  gap: 25px; 
+  gap: 25px;
   align-items: center;
   width: 100%;
 
@@ -34,16 +34,16 @@
 .icone {
   position: absolute;
   left: 0;
-  top: -22px; 
+  top: -22px;
   color: #466399;
   font-size: 1.2rem;
 }
 
 .inputField, .textField {
   width: 100%;
-  padding: 12px 0px; 
+  padding: 12px 0px;
   border: none;
-  border-bottom: 2px solid #94a8cc; 
+  border-bottom: 2px solid #94a8cc;
   background: transparent;
   font-size: 1rem;
   transition: border-color 0.3s ease;
@@ -80,9 +80,22 @@
 
 .botaoEnviar:hover {
   background-color: #354a72;
-  transform: translateY(-2px); 
+  transform: translateY(-2px);
 }
 
 .inputGroup{
  margin-top: 20px;
+}
+.inputField:hover{
+    color:#354a72
+}
+
+.inputField{
+    color: #466399;
+}
+.textField{
+    color:#354a72
+}
+.textField:hover{
+    color:#354a72
 }

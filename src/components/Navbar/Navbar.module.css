@@ -2,15 +2,26 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 1rem 2rem 1rem 0.5rem;
   background-color: #94a8cc;
   color: white;
 }
 
 .logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #466399;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logoImg {
+  width: 150px;
+}
+
+.logoImg2 {
+  width: 50px;
+}
+.icon {
+  color: #354a72;
 }
 
 .links {
@@ -19,13 +30,16 @@
   gap: 20px;
 }
 
-.links a {
-  color: #466399;
-  font-weight: bold;
-  text-decoration: none;
-  transition: color 0.3s;
-}
+@media (max-width: 600px) {
+  .logoImg {
+    width: 110px;
+  }
 
-.links a:hover {
-  color: #223f7a;
+  .navbar {
+    padding: 1rem;
+  }
+
+  .links {
+    gap: 12px;
+  }
 }

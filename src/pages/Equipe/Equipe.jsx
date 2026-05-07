@@ -1,22 +1,28 @@
-import styles from './Equipe.module.css';
+import styles from './Equipe.module.css';;
+import imgAnne from '../../img/anne.webp';
+import imgGaby from '../../img/gaby.jpg';
 
-function Equipe() {
-  return (
-    <section className={styles.equipe}>
-      <h1>Nossa Equipe</h1>
-      <div className={styles.membros}>
-        <div className={styles.membro}>
-          <div className={styles.fotoPlaceholder}>👤</div>
-          <h4>Anne Todão</h4>
-          <p>Proprietária</p>
-        </div>
-        <div className={styles.membro}>
-          <div className={styles.fotoPlaceholder}>👤</div>
-          <h4>Gabrielly Dias</h4>
-          <p>Proprietária</p>
-        </div>
-      </div>
-    </section>
-  );
+function Extra() {
+    return (
+        <section className={styles.equipe}>
+            <h1>Nossa Equipe</h1>
+            <div className={styles.membros}>
+                <div className={styles.membro}>
+                    <div className={styles.fotoPlaceholder}>
+                        <img src={imgAnne} alt="anne" className={styles.imgAnne} />
+                    </div>
+                    <h4>Anne Todão</h4>
+                    <p>Proprietária</p>
+                </div>
+                <div className={styles.membro}>
+                    <div className={styles.fotoPlaceholder}>
+                        <img src={imgGaby} alt="gaby" className={styles.imgGaby} />
+                    </div>
+                    <h4>Gabrielly Dias</h4>
+                    <p>Proprietária</p>
+                </div>
+            </div>
+        </section>
+    );
 }
-export default Equipe;
+export default Extra;
